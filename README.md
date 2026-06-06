@@ -1,10 +1,10 @@
-# ⚡ Real-Time E-Commerce Streaming Pipeline
+#  Real-Time E-Commerce Streaming Pipeline
 
 A real-time data streaming pipeline that generates e-commerce orders every 2 seconds, streams them through Apache Kafka, stores them in PostgreSQL, and visualizes them in a live Metabase dashboard.
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 ```
 Fake Order Generator → Kafka Topic → Python Consumer → PostgreSQL → Metabase Dashboard
      (Producer)          (Stream)      (Consumer)       (Storage)    (Visualization)
@@ -12,7 +12,7 @@ Fake Order Generator → Kafka Topic → Python Consumer → PostgreSQL → Meta
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 | Tool | Purpose |
 |------|---------|
 | Apache Kafka | Real-time data streaming |
@@ -38,7 +38,7 @@ realtime-ecommerce/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - Docker Desktop installed
@@ -97,17 +97,17 @@ Password: kafka123
 ```
 
 ### Dashboard Charts
-- 📊 Orders by Category
-- 🥧 Revenue by Category
-- 📈 Orders Over Time
-- 🏆 Top Selling Products
-- 🔄 Orders by Status
-- 💰 Total Revenue
-- 📦 Average Order Value
+-  Orders by Category
+-  Revenue by Category
+-  Orders Over Time
+-  Top Selling Products
+-  Orders by Status
+-  Total Revenue
+-  Average Order Value
 
 ---
 
-## 📦 Sample Data
+##  Sample Data
 ```json
 {
   "order_id": "abc-123",
@@ -124,7 +124,7 @@ Password: kafka123
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 - Real-time data streaming with Apache Kafka
 - Building Kafka Producers & Consumers in Python
 - Database management with PostgreSQL
@@ -133,7 +133,7 @@ Password: kafka123
 
 ---
 
-## 🔜 Next Steps
+##  Next Steps
 - Add Apache Spark for large-scale processing
 - Deploy to AWS or GCP
 - Connect real e-commerce APIs (Shopify, WooCommerce)
